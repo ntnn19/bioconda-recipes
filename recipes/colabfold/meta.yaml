@@ -17,10 +17,10 @@ build:
   number: 2
 
 source:
-  - url: https://github.com/sokrypton/ColabFold/archive/refs/tags/v{{ cf_version }}.tar.gz
+  - url: https://github.com/ntnn19/ColabFold/archive/refs/tags/v{{ cf_version }}.tar.gz
     sha256: {{ cf_hash }}
     folder: colabfold
-  - url: https://github.com/steineggerlab/alphafold/archive/refs/tags/v{{ af_version }}.tar.gz
+  - url: https://github.com/ntnn19/alphafold/archive/refs/tags/v{{ af_version }}.tar.gz
     sha256: {{ af_hash }}
     folder: alphafold
 
@@ -59,7 +59,7 @@ test:
     - which colabfold_batch
 
 about:
-  home: https://github.com/sokrypton/ColabFold
+  home: https://github.com/ntnn19/ColabFold
   summary: "ColabFold: making protein folding accessible to all"
   license: MIT
 
