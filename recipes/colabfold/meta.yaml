@@ -1,7 +1,7 @@
 {% set cf_version = "1.5.6" %}
 {% set cf_hash = "90f235d8d8c1abeef4fd142234e15869d532a1deae98c28ad1f0ba75ed41e826" %}
 {% set af_version = "2.3.7" %}
-{% set af_hash = "75220d2f9e9f55c0a629c4c52464e168215fc6c6c6d77cb12f88188642a8830c" %}
+{% set af_hash = "6ae89eccc99726faf5ab461d9b009509b1e794734457cbe86a4b83ab171f8ee8" %}
 
 package:
   name: colabfold
