@@ -1,7 +1,7 @@
-{% set cf_version = "1.5.6" %}
-{% set cf_hash = "efba9009c29fa9fb0ec6bc1e4a380aa184227ea75502c2c07451422f19b4c878" %}
-{% set af_version = "2.3.6" %}
-{% set af_hash = "a5674257d92928511d70f94ec3261e275cb3442a7762b5210e01f445692d2182" %}
+{% set cf_version = "1.5.8" %}
+{% set cf_hash = "3b700528cf91a5b7c64bc26609bbdb44d42f0edacdb1ba77c8e38c13a9687317" %} # keep
+{% set af_version = "2.3.8" %}
+{% set af_hash = "d15d086e6668670e1f1f2e447f0113091ca55ccdbcdfd667f8c55cabd1a7edfc" %}
 
 package:
   name: colabfold
@@ -20,7 +20,7 @@ source:
   - url: https://github.com/ntnn19/ColabFold/archive/refs/tags/v{{ cf_version }}.tar.gz
     sha256: {{ cf_hash }}
     folder: colabfold
-  - url: https://github.com/steineggerlab/alphafold/archive/refs/tags/v{{ af_version }}.tar.gz
+  - url: https://github.com/ntnn19/alphafold/archive/refs/tags/v{{ af_version }}.tar.gz
     sha256: {{ af_hash }}
     folder: alphafold
 
